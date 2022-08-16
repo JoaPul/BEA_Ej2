@@ -15,7 +15,7 @@ db.on('error', () => {
   console.log('No se puede conectar a la base de datos');
 });
 
-mongoose.connect('mongodb+srv://usuario:LLamarada@cluster0.stgxm5y.mongodb.net/ejercicio2?retryWrites=true&w=majority', async () => {
+mongoose.connect('mongodb+srv://<usuario>:LLamarada@cluster0.stgxm5y.mongodb.net/ejercicio2?retryWrites=true&w=majority', async () => {
   console.log('Al ejercicio');
 
   // Entregue todos los documentos read
